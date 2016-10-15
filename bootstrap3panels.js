@@ -28,4 +28,5 @@ Bootstrap3Panel.prototype = {
   body: '',
   expanded: false,
   template: false,
+  mobileUrl: ''
 };

@@ -14,5 +14,5 @@ Package.onUse(function(api) {
   api.versionsFrom('1');
   api.export(['Bootstrap3Panel'], 'client');
   api.use(['templating','handlebars'], 'client');
-  api.addFiles(['jamgold:bootstrap3panels.js','jamgold:bootstrap3panels.html'],'client');
+  api.addFiles(['bootstrap3panels.js','bootstrap3panels.html'],'client');
 });
